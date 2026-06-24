@@ -22,3 +22,19 @@ f = """
 This is a mutli line string
 """
 print(d)
+
+# This is a list
+test_list = ["hello", "World", "python"]
+print(test_list)
+
+# Tuple
+test_tuple = ("hello", "world", "python")
+print(test_tuple)
+
+# Dict
+test_dict = {'a' : 1, 'b' : 2}
+print(test_dict)
+
+#set
+test_set = {'a', 'b', "abc"}
+print(test_set)

@@ -16,4 +16,8 @@ python have saparate varibles
 - Set
 - Dictionary
 
-python is case-sensitive i.e devops and DevOps 
+- python is case-sensitive i.e devops and DevOps are 2 different things
+
+- Naming convention:
+test_list
+test-list (this is incorrect)
