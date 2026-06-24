@@ -56,7 +56,8 @@ print(res, res_1, res_2, res_3)
 a = True
 b = False
 res = a and b
-res_1 = a not b
+res_1 =  not b
+res_3 =  not a
 res_2 = a or b
 
-print(res, res_1, res_2)
+print(res, res_1, res_2, res_3)
