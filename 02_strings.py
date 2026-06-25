@@ -36,3 +36,13 @@ print(sample_str.capitalize()) # "Hello"
 sample_str = "This is a sample string"
 str_split = sample_str.split()
 print(str_split)
+
+join_split_str = " ".join(str_split)
+print(join_split_str, type(join_split_str))
+
+count_a = sample_str.count('a')
+print(count_a)
+
+sample_str = "      Devops is a very good career choice   "
+strip_str = sample_str.strip()
+print(strip_str)
