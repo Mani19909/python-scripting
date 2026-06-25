@@ -6,3 +6,4 @@ print(sample_str[8])
 
 # slicing
 sub_str = sample_str[2:7]
+print(sub_str)
