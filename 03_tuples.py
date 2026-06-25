@@ -36,3 +36,8 @@ print(res_tuple_1)
 # Methods
 k8s_idx = res_tuple.index("K8s")
 print(k8s_idx)
+
+# Tuple unpacking 
+ansible, terraform, jenkins, docker, k8s  = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s") # Tool set
+
+print(ansible, terraform, jenkins, docker, k8s)
