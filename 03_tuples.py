@@ -15,5 +15,17 @@ print(sample_ele)
 sliced_tuple = sample_tuple[1:3]
 print(sliced_tuple)
 
-sample_tuple[1] = "Shell"
-print(sample_tuple)
+# sample_tuple[1] = "Shell"
+# print(sample_tuple)
+
+"""
+Traceback (most recent call last):
+  File "/home/cloudshell-user/python-scripting/03_tuples.py", line 18, in <module>
+    sample_tuple[1] = "Shell"
+    ~~~~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+"""
+
+# Operations
+res_tuple = sample_tuple + sliced_tuple
+print(res_tuple)
