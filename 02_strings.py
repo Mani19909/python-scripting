@@ -27,3 +27,7 @@ print(sub_str)
 # Length of a string 
 len_str = len(sample_str)
 print(len_str)
+
+# Method
+sample_str = "hello"
+print(sample_str.capitalize()) # "Hello"
