@@ -46,3 +46,8 @@ print(count_a)
 sample_str = "      Devops is a very good career choice   "
 strip_str = sample_str.strip()
 print(strip_str)
+
+# String are immutable
+sample_str = "This is a sample string"
+sample_str[-1] = 'G'
+print (sample_str)
