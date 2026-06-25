@@ -14,3 +14,6 @@ print(sample_ele)
 # Slicing
 sliced_tuple = sample_tuple[1:3]
 print(sliced_tuple)
+
+sample_tuple[1] = "Shell"
+print(sample_tuple)
