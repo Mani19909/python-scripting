@@ -29,3 +29,10 @@ TypeError: 'tuple' object does not support item assignment
 # Operations
 res_tuple = sample_tuple + sliced_tuple
 print(res_tuple)
+
+res_tuple_1 = sliced_tuple * 2
+print(res_tuple_1)
+
+# Methods
+k8s_idx = res_tuple.index("K8s")
+print(k8s_idx)
